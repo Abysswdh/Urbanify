@@ -64,10 +64,9 @@ Urbanify/
 3. Jelajahi materi edukasi melalui navigasi menu atau bagian-bagian di halaman utama.
 
 ## 👥 Pengembang
-
-**Abyasa Wedha**
-- SMA NEGERI 4 DENPASAR
-- FOURSMA COMPUTER CLUB
+- Putra Abyasa Wedha
+- I Nyoman Agung Ananda Terano
+- I Nyoman Yadnya Karmana
 
 ## 📄 Lisensi
 
