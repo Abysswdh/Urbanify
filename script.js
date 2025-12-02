@@ -135,26 +135,26 @@ document.addEventListener("DOMContentLoaded", function () {
       window.location.href = basePath + "_Page/SmartEnvironment/environment.html";
     });
   document.querySelector(".link-urban").addEventListener("click", function () {
-    window.location.href = basePath + "_Page/urbangreenspace/urbangreenspace.html";
+    window.location.href = basePath + "_Page/UrbanGreenspace/UrbanGreenSpace.html";
   });
   document.querySelector(".link-iot").addEventListener("click", function () {
-    window.location.href = basePath + "_Page/iot/iot.html";
+    window.location.href = basePath + "_Page/IoT/iot.html";
   });
   document
     .querySelector(".link-citizen")
     .addEventListener("click", function () {
       window.location.href =
-        basePath + "_Page/citizenengagement/citizenengagement.html";
+        basePath + "_Page/CitizenEngagement/citizenengagement.html";
     });
   document
     .querySelector(".link-smartcity")
     .addEventListener("click", function () {
-      window.location.href = basePath + "_Page/smartcity/smart.html";
+      window.location.href = basePath + "_Page/SmartCity/smart.html";
     });
   document
     .querySelector(".image-smartcity")
     .addEventListener("click", function () {
-      window.location.href = basePath + "_Page/smartcity/smart.html";
+      window.location.href = basePath + "_Page/SmartCity/smart.html";
     });
 });
 // end of dropdown

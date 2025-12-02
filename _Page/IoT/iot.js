@@ -122,25 +122,25 @@ document.addEventListener("DOMContentLoaded", function () {
       window.location.href = "../SmartEnvironment/environment.html";
     });
   document.querySelector(".link-urban").addEventListener("click", function () {
-    window.location.href = "../urbangreenspace/urbangreenspace.html";
+    window.location.href = "../UrbanGreenspace/UrbanGreenSpace.html";
   });
   document.querySelector(".link-iot").addEventListener("click", function () {
-    window.location.href = "../iot/iot.html";
+    window.location.href = "../IoT/iot.html";
   });
   document
     .querySelector(".link-citizen")
     .addEventListener("click", function () {
-      window.location.href = "../citizenengagement/citizenengagement.html";
+      window.location.href = "../CitizenEngagement/citizenengagement.html";
     });
   document
     .querySelector(".link-smartcity")
     .addEventListener("click", function () {
-      window.location.href = "../smartcity/smart.html";
+      window.location.href = "../SmartCity/smart.html";
     });
   document
     .querySelector(".image-smartcity")
     .addEventListener("click", function () {
-      window.location.href = "../smartcity/smart.html";
+      window.location.href = "../SmartCity/smart.html";
     });
 });
 // end of Navigation
