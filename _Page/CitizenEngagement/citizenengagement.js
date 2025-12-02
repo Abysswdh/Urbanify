@@ -49,7 +49,7 @@ document.addEventListener("scroll", () => {
   if (window.scrollY > 0) {
     header.classList.add("scrolled");
     underline.classList.add("scrolled");
-    logoImage.src = "/Home/Assets/1.png";
+    logoImage.src = "../../Assets/1.png";
 
     navlinks.forEach((link) => {
       link.style.color = "#503d42";
@@ -57,7 +57,7 @@ document.addEventListener("scroll", () => {
   } else {
     header.classList.remove("scrolled");
     underline.classList.remove("scrolled");
-    logoImage.src = "/Home/Assets/3.png";
+    logoImage.src = "../../Assets/3.png";
 
     navlinks.forEach((link) => {
       link.style.color = "";
@@ -350,7 +350,7 @@ function startConfetti() {
 }
 
 balikButton.addEventListener("click", () => {
-  window.location.href = "/Home/index.html";
+  window.location.href = "../../index.html";
 });
 
 repeat();
