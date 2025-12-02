@@ -39,16 +39,27 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+// Helper to determine base path for assets and links
+function getBasePath() {
+  const path = window.location.pathname;
+  // Check if we are in a subdirectory (assuming _Page structure)
+  if (path.includes("/_Page/") || path.includes("\\_Page\\")) {
+    return "../../";
+  }
+  return "";
+}
+
 document.addEventListener("scroll", () => {
   const header = document.querySelector(".navigation");
   const underline = document.querySelector(".underline");
   const logoImage = document.querySelector(".logo-nav");
   const navlinks = document.querySelectorAll(".nav-middle a");
+  const basePath = getBasePath();
 
   if (window.scrollY > 0) {
     header.classList.add("scrolled");
     underline.classList.add("scrolled");
-    logoImage.src = "Assets/1.png";
+    logoImage.src = basePath + "Assets/1.png";
 
     navlinks.forEach((link) => {
       link.style.color = "#503d42";
@@ -56,7 +67,7 @@ document.addEventListener("scroll", () => {
   } else {
     header.classList.remove("scrolled");
     underline.classList.remove("scrolled");
-    logoImage.src = "Assets/3.png";
+    logoImage.src = basePath + "Assets/3.png";
 
     navlinks.forEach((link) => {
       link.style.color = "";
@@ -117,32 +128,33 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
+  const basePath = getBasePath();
   document
     .querySelector(".link-environment")
     .addEventListener("click", function () {
-      window.location.href = "_Page/SmartEnvironment/environment.html";
+      window.location.href = basePath + "_Page/SmartEnvironment/environment.html";
     });
   document.querySelector(".link-urban").addEventListener("click", function () {
-    window.location.href = "_Page/urbangreenspace/urbangreenspace.html";
+    window.location.href = basePath + "_Page/urbangreenspace/urbangreenspace.html";
   });
   document.querySelector(".link-iot").addEventListener("click", function () {
-    window.location.href = "_Page/iot/iot.html";
+    window.location.href = basePath + "_Page/iot/iot.html";
   });
   document
     .querySelector(".link-citizen")
     .addEventListener("click", function () {
       window.location.href =
-        "_Page/citizenengagement/citizenengagement.html";
+        basePath + "_Page/citizenengagement/citizenengagement.html";
     });
   document
     .querySelector(".link-smartcity")
     .addEventListener("click", function () {
-      window.location.href = "_Page/smartcity/smart.html";
+      window.location.href = basePath + "_Page/smartcity/smart.html";
     });
   document
     .querySelector(".image-smartcity")
     .addEventListener("click", function () {
-      window.location.href = "_Page/smartcity/smart.html";
+      window.location.href = basePath + "_Page/smartcity/smart.html";
     });
 });
 // end of dropdown
