@@ -375,7 +375,7 @@ header {
   height: 40dvh;
   display: block;
   position: relative;
-  background: url("/_Page/About/Assets/silicon.jpg") no-repeat center center;
+  background: url("Assets/silicon.jpg") no-repeat center center;
   background-size: cover;
   filter: brightness(0.5);
 }

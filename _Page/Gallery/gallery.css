@@ -355,7 +355,7 @@ header {
   height: 20vw;
   display: block;
   position: relative;
-  background: url("/_Page/Gallery/gallery-assets/gallerybg.jpg") no-repeat
+  background: url("gallery-assets/gallerybg.jpg") no-repeat
   center center;
   background-size: cover;
 }

@@ -372,7 +372,7 @@ header {
   height: 20vw;
   display: block;
   position: relative;
-  background: url("/_Page/CitizenEngagement/Assets/Section1Bg.jpg") no-repeat
+  background: url("Assets/Section1Bg.jpg") no-repeat
     center center;
   background-size: cover;
 }

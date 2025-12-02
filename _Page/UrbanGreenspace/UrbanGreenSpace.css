@@ -369,7 +369,7 @@ header {
   height: 20vw;
   display: block;
   position: relative;
-  background: url("/_Page/UrbanGreenspace/urban-assets/bg-urbangreen.jpg")
+  background: url("urban-assets/bg-urbangreen.jpg")
     no-repeat center center;
   background-size: cover;
 }

@@ -751,7 +751,7 @@ body {
   height: 12dvh;
   margin-left: -0.3%;
   position: relative;
-  background: url("/_Page/SmartCity/smart-access/sectiontwoIntro.png") no-repeat
+  background: url("smart-access/sectiontwoIntro.png") no-repeat
     center center;
   background-size: cover;
 }
